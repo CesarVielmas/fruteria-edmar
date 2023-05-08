@@ -1,0 +1,52 @@
+@keyframes animationSesionImages {
+    0%{
+        background-image: url(../../../assets/loginImage1.jpg);
+        background-size: 102%;
+        background-repeat: no-repeat;
+    }
+    50%{
+        background-image: url(../../../assets/loginImage2.jpg);
+        background-size: 102%;
+        background-repeat: no-repeat;
+
+    }
+    100%{
+        background-image: url(../../../assets/loginImage3.jpg);
+        background-size: 102%;
+        background-repeat: no-repeat;
+
+    }
+}
+.sesionLogin{
+    width: 57.4%;
+    height: 100vh;
+    background-image: url('../../../assets/fondoLoginRegister.svg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-left: auto;
+}
+.sesionImages{
+    position: absolute;
+    left: 50%;
+    width: 41%;
+    height: 90%;
+    top: 10%;
+    
+  /* establecer la duración y la repetición de la animación aquí */
+  animation-name: animationSesionImages;
+  animation-duration: 10s;
+  animation-direction: alternate;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+  
+  /* agregar la transición aquí */
+  transition: background-image 0.5s ease-in-out;
+}
+.formSesion{
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    height: 99.9vh;
+    width: 45%;
+    background-color: white;
+}

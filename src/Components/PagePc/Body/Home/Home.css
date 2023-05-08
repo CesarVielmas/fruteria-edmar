@@ -1,0 +1,977 @@
+@keyframes fadeInOut {
+    0% {
+      height: 90%;
+    }
+    50% {
+     height: 91%;
+    }
+    100%{
+       height: 90%;
+    }
+  }
+  @keyframes animationVisibleButtons {
+    0% {
+        visibility: hidden;
+        top: -20px; /* Empieza 20px más arriba de su posición original */
+        opacity: 0; /* Empieza con opacidad cero para que aparezca poco a poco */
+      }
+      100% {
+        visibility: visible;
+        top: 0; /* Termina en su posición original */
+        opacity: 1; /* Termina con opacidad completa */
+      }
+  }
+  @keyframes animationCarruselAtention {
+    0%{
+        
+        background-image: url('../../../../assets/carrusel1.jpg');
+    }
+    25%{
+       
+        background-image: url('../../../../assets/carrusel2.jpg');
+    }
+    50%
+    {
+        
+        background-image: url('../../../../assets/carrusel3.jpg');
+    }
+    75%{
+        
+        background-image: url('../../../../assets/carrusel2.jpg');
+    }
+    100%{
+      
+        background-image: url('../../../../assets/carrusel4.jpg');
+    }
+}
+@keyframes moveCualityImage {
+    from {
+        position: relative;
+        border: none;
+        top: -6%;
+        height: 110%;
+        width: 33%;
+        left: 5%;
+        border-radius: 20px;
+        z-index: 1;
+        background-color: #8cf1a2;
+        opacity: .3;
+        box-shadow: 0px 20px 25px 0px rgb(1, 26, 2);
+    }
+    to {
+        position: relative;
+        border: none;
+        top: 27%;
+        height: 110%;
+        width: 33%;
+        left: 10%;
+        border-radius: 20px;
+        z-index: 2;
+        background-color: #8cf1a2;
+        opacity: 1;
+        box-shadow: 0px 20px 25px 0px rgb(1, 26, 2);
+    }
+  }
+  @keyframes moveCualityInformation {
+    from {
+        position: relative;
+        border: none;
+        top: -83%;
+        height: 110%;
+        width: 33%;
+        left: 10%;
+        border-radius: 20px;
+        z-index: 2;
+        background-color: #9bdfab;
+        box-shadow: 0px 20px 25px -2px rgb(1, 26, 2);
+    }
+    to {
+        position: relative;
+        border: none;
+        top: -115%;
+        height: 110%;
+        width: 33%;
+        left: 6%;
+        border-radius: 20px;
+        z-index: 1;
+        opacity: .3;
+        background-color: #9bdfab;
+        box-shadow: 0px 20px 25px -2px rgb(1, 26, 2);
+    }
+  }
+  @keyframes moveCualityReverseImage {
+    from {
+        position: relative;
+        border: none;
+        top: 27%;
+        height: 110%;
+        width: 33%;
+        left: 10%;
+        border-radius: 20px;
+        z-index: 2;
+        background-color: #8cf1a2;
+        opacity: 1;
+        box-shadow: 0px 20px 25px 0px rgb(1, 26, 2);
+    }
+    to {
+        position: relative;
+        border: none;
+        top: -6%;
+        height: 110%;
+        width: 33%;
+        left: 5%;
+        border-radius: 20px;
+        z-index: 1;
+        background-color: #8cf1a2;
+        opacity: .3;
+        box-shadow: 0px 20px 25px 0px rgb(1, 26, 2);
+    }
+  }
+  @keyframes moveCualityReverseInformation {
+    from {
+        position: relative;
+        border: none;
+        top: -115%;
+        height: 110%;
+        width: 33%;
+        left: 6%;
+        border-radius: 20px;
+        z-index: 1;
+        opacity: .3;
+        background-color: #9bdfab;
+        box-shadow: 0px 20px 25px -2px rgb(1, 26, 2);
+
+      
+    }
+    to {
+        position: relative;
+        border: none;
+        top: -83%;
+        height: 110%;
+        width: 33%;
+        left: 10%;
+        border-radius: 20px;
+        z-index: 2;
+        background-color: #9bdfab;
+        box-shadow: 0px 20px 25px -2px rgb(1, 26, 2);
+    }
+  }
+
+  @keyframes movePricesImage {
+    from {
+        position: relative;
+        border: none;
+        top: -6%;
+        height: 110%;
+        left: 63%;
+        width: 33%;
+        border-radius: 20px;
+        z-index: 1;
+        background-color: rgb(91, 216, 241);
+        opacity: .3;
+        box-shadow: 0px 20px 25px 0px rgb(1, 1, 26);
+    }
+    to {
+        position: relative;
+        border: none;
+        top: 27%;
+        height: 110%;
+        width: 33%;
+        left: 59%;
+        border-radius: 20px;
+        z-index: 2;
+        background-color: rgb(91, 216, 241);
+        opacity: 1;
+        box-shadow: 0px 20px 25px 0px rgb(1, 1, 26);
+    }
+  }
+  @keyframes movePricesInformation {
+    from {
+        position: relative;
+        border: none;
+        top: -83%;
+        height: 110%;
+        width: 33%;
+        left: 59%;
+        border-radius: 20px;
+        z-index: 2;
+        box-shadow: 0px 20px 25px 0px rgb(1, 1, 26);
+        background-color: rgb(59, 151, 173);
+    }
+    to {
+        position: relative;
+        border: none;
+        top: -115%;
+        height: 110%;
+        width: 33%;
+        left: 63%;
+        border-radius: 20px;
+        z-index: 1;
+        opacity: .3;
+        box-shadow: 0px 20px 25px 0px rgb(1, 1, 26);
+        background-color: rgb(59, 151, 173);
+    }
+  }
+
+  @keyframes movePricesReverseImage {
+    from {
+        position: relative;
+        border: none;
+        top: 27%;
+        height: 110%;
+        width: 33%;
+        left: 59%;
+        border-radius: 20px;
+        z-index: 2;
+        background-color: rgb(91, 216, 241);
+        opacity: 1;
+        box-shadow: 0px 20px 25px 0px rgb(1, 1, 26);
+    }
+    to {
+        position: relative;
+        border: none;
+        top: -6%;
+        height: 110%;
+        left: 63%;
+        width: 33%;
+        border-radius: 20px;
+        z-index: 1;
+        background-color: rgb(91, 216, 241);
+        opacity: .3;
+        box-shadow: 0px 20px 25px 0px rgb(1, 1, 26);
+    }
+  }
+  @keyframes movePricesReverseInformation {
+    from {
+        position: relative;
+        border: none;
+        top: -115%;
+        height: 110%;
+        width: 33%;
+        left: 63%;
+        border-radius: 20px;
+        z-index: 1;
+        opacity: .3;
+        box-shadow: 0px 20px 25px 0px rgb(1, 1, 26);
+        background-color: rgb(59, 151, 173);
+    }
+    to {
+        
+
+        position: relative;
+        border: none;
+        top: -83%;
+        height: 110%;
+        width: 33%;
+        left: 59%;
+        border-radius: 20px;
+        z-index: 2;
+        box-shadow: 0px 20px 25px 0px rgb(1, 1, 26);
+        background-color: rgb(59, 151, 173);
+    }
+  }
+.carruselContent h1{
+    position: relative;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    width: 47%;
+    color: white;
+    height: 100%;
+    left: 0%;
+    text-align: center;
+    margin-top: 7%;
+    margin-bottom: 3%;
+}
+.carruselHome1,
+.carruselHome2,
+.carruselHome3,
+.carruselHome4,
+.carruselHome5{
+    position: relative;
+    z-index: 4;
+    top: -120%;
+    height: 90%;
+    width: 30%;
+    left: 59.5%;
+    border-radius: 20px;
+    box-shadow: 0px 10px 30px black;
+}
+.carruselHome2{
+    height: 85%;
+    left: 35%;
+    z-index: 3;
+    top: -122.5%;
+    opacity: .9;
+}
+.carruselHome3{
+    height: 75%;
+    left: 9%;
+    top: -126.5%;
+    z-index: 2;
+    opacity: .5;
+}
+.carruselHome4{
+    height: 85%;
+    left: 53%;
+    z-index: 3;
+    top: -207.5%;
+    opacity: .9;
+}
+.carruselHome5{
+    height: 75%;
+    left: 18%;
+    z-index: 2;
+    top: -212.5%;
+    opacity: .5; 
+}
+.animationCarrusel{
+    animation: fadeInOut 2s ease-in-out infinite;
+}
+
+.next,
+.previous{
+    position: relative;
+    z-index: 6;
+    font-size: 40px;
+    left: -10%;
+    background-color: transparent;
+    border: none;
+    top: -245%;
+    
+}
+.next:hover,
+.previous:hover{
+    cursor: pointer;
+    color: white;
+}
+
+.previous{
+left: 21.5%;
+}
+.next{
+    left: 0%;
+}
+.carruselContent{
+    position: relative;
+    width: 100%;
+    height: 550px;
+    background-color: rgba(38, 109, 35,.5);
+    padding: 1px;
+}
+.buttonCarrusel{
+    position: absolute;
+   left: 15.4%;
+   top: 65%;
+   height: 15%;
+   width: 17%;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   background-color: rgb(7, 58, 1);
+   color: white;
+   border: none;
+   border-radius: 10px;
+   font-size: 20px;
+   font-weight: 500;
+   box-shadow: 2px 10px 20px black;
+}
+.buttonCarrusel:hover{
+    cursor: pointer;
+}
+.hrCarrusel{
+    margin-bottom: 30px;
+    margin-top: 15px;
+    border: thin solid rgb(3, 58, 3);
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.part1Buttons{
+    display: flex;
+    position: relative;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+}
+.part1Buttons div{
+    flex: 1;
+    height: 100%;
+    margin-left: 15px;
+    margin-right: 15px;
+   border: thin solid white;
+   box-shadow: 0px 0px 2px 0px rgb(94, 92, 92);
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.button1,
+.button2,
+.button3{
+    visibility: hidden;
+}
+.button1:hover,
+.button2:hover,
+.button3:hover{
+    box-shadow: 0px 0px 10px 2px rgb(48, 46, 46);
+    cursor: pointer;
+}
+.animationEnter{
+    position: relative;
+    visibility: hidden;
+    top: -20px; /* Empieza 20px más arriba de su posición original */
+    opacity: 0; /* Empieza con opacidad cero para que aparezca poco a poco */
+    animation: animationVisibleButtons 4s ease forwards;
+}
+.button1 h2,
+.button2 h2,
+.button3 h2{
+    position: relative;
+    top: -5%;
+    font-size: 40px;
+    text-align: center;
+    color: rgb(1, 46, 27);
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.button2 h2{
+    color: rgb(2, 2, 51);
+}
+.button3 h2{
+    color: rgb(56, 3, 3);
+}
+.button1 p,
+.button2 p,
+.button3 p{
+    position: relative;
+    top: -5%;
+    font-size: 22px;
+    text-align: center;
+}
+
+.button1 button,
+.button2 button,
+.button3 button{
+    position: relative;
+    height: 10%;
+    width: 13%;
+    border-radius: 60%;
+    top: -5%;
+    left: 45%;
+    border: 5px solid rgb(1, 46, 27) ;
+    background-color: rgb(1, 46, 27);
+    box-shadow: 0px 0px 0px 2px white inset;
+}
+.button2 button{
+    background-color:rgb(2, 2, 51);
+    border: 5px solid rgb(2, 2, 51) ;
+}
+.button3 button{
+    background-color: rgb(56, 3, 3);
+    border: 5px solid rgb(56, 3, 3) ;
+}
+.button1 .cuality{
+    font-size: 200px;
+    margin-left: 26%;
+    color: rgb(1, 46, 27) ;
+}
+.button2 .dollar{
+    font-size: 200px;
+    margin-left: 25%;
+    color:rgb(2, 2, 51);
+}
+.button3 .user{
+    font-size: 190px;
+    margin-left: 1%;
+    color: rgb(56, 3, 3) ;
+}
+.part2Cuality{
+    position: relative;
+    visibility: hidden;
+    width: 100%;
+    height: 400px;
+    margin-top: 250px;
+    background-image: linear-gradient(white,rgba(0, 233, 47,.4));
+    margin-bottom: 250px;
+}
+.part2Cuality h2{
+    position: relative;
+    display: inline-block;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+    color: rgb(1, 46, 27);
+    font-weight: 700;
+    width: 50%;
+    top: -260%;
+    left: 46%;
+    
+}
+.part2Cuality p{
+    position: relative;
+    display: inline-block;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 21px;
+    color: black;
+    font-weight: 400;
+    width: 50%;
+    top: -180%;
+    left: -4%;
+    
+}
+.wave,
+.wave2,
+.wave3,
+.wave4 {
+    position: absolute;
+    bottom: -200px;
+    left: 0;
+    right: 0;
+    height: 200px;
+    
+  }
+  
+  .wave svg,
+  .wave2 svg,
+  .wave3 svg,
+  .wave4 svg {
+    height: 200%;
+    width: 100%;
+    transform: rotate(180deg);
+  }
+  
+  .wave path,
+  .wave2 path,
+  .wave3 path,
+  .wave4 path {
+    stroke: none;
+    fill: #00e92f;
+    opacity: .4;
+}  
+.cualityImage,
+.pricesImage{
+    position: relative;
+    border: none;
+    top: -6%;
+    height: 110%;
+    width: 33%;
+    left: 5%;
+    border-radius: 20px;
+    z-index: 1;
+    background-color: #8cf1a2;
+    opacity: .3;
+    box-shadow: 0px 20px 25px 0px rgb(1, 26, 2);
+    
+}
+
+.cualityImage img,
+.pricesImage img{
+    height: 90%;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 3.5%;
+    border-radius: 20px;
+    border: 5px solid rgb(3, 53, 16);
+}
+.pricesImage img{
+    border: 5px solid rgb(6, 2, 56);
+}
+.cualityImage button,
+.pricesImage button{
+    position: relative;
+    bottom: 7%;
+    height: 75px;
+    width: 80px;
+    border-radius: 60%;
+   left: 42%;
+   border: 5px solid rgb(3, 53, 16);
+   background-color: rgb(3, 53, 16);
+   box-shadow: 0px 0px 0px 2px white inset;
+}
+.pricesImage button{
+    border: 5px solid rgb(6, 2, 56);
+   background-color:   rgb(6, 2, 56);
+   box-shadow: 0px 0px 0px 2px white inset;
+}
+.pricesImage{
+    left: 63%;
+    box-shadow: 0px 20px 25px 0px rgb(1, 1, 26);
+    background-color: rgb(91, 216, 241);
+}
+
+.cualityInformation,
+.pricesInformation{
+    position: relative;
+    border: none;
+    top: -83%;
+    height: 110%;
+    width: 33%;
+    left: 10%;
+    border-radius: 20px;
+    z-index: 2;
+    background-color: #9bdfab;
+    box-shadow: 0px 20px 25px -2px rgb(1, 26, 2);
+
+}
+.cualityInformation button,
+.pricesInformation button{
+    position: relative;
+    bottom: 7%;
+    height: 75px;
+    width: 80px;
+    border-radius: 60%;
+   left: 42%;
+   border: 5px solid rgb(3, 53, 16);
+   background-color: rgb(3, 53, 16);
+   box-shadow: 0px 0px 0px 2px white inset;
+}
+.pricesInformation button{
+   border: 5px solid rgb(6, 2, 56);
+   background-color:   rgb(6, 2, 56);
+   box-shadow: 0px 0px 0px 2px white inset;
+}
+.cualityInformation img,
+.pricesInformation img{
+    height: 90%;
+    width: 95%;
+    margin-left: 1.5%;
+    margin-top: 3.5%;
+    border-radius: 20px;
+    border: 5px solid rgb(3, 53, 16);
+}
+.pricesInformation img{
+    border: 5px solid rgb(6, 2, 56);
+}
+.pricesInformation{
+    left: 59%;
+    box-shadow: 0px 20px 25px 0px rgb(1, 1, 26);
+    background-color: rgb(59, 151, 173);
+}
+.part3Prices{
+    position: relative;
+    visibility: hidden;
+    width: 100%;
+    height: 400px;
+    margin-top: 500px;
+    background-image: linear-gradient(white,rgba(73, 164, 206, 0.4));
+    margin-bottom: 250px;
+}
+.part3Prices h2{
+    position: relative;
+    display: inline-block;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+    color:rgb(2, 2, 51);
+    font-weight: 700;
+    width: 70%;
+    top: -200%;
+    left: 3%;
+    
+}
+.part3Prices p{
+    position: relative;
+    display: inline-block;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 21px;
+    color: black;
+    font-weight: 400;
+    width: 50%;
+    top: -190%;
+    left: 3%;
+    
+}
+  .wave2 path {
+    stroke: none;
+    fill:rgb(73, 164, 206);
+    opacity: .4;
+}  
+.wave2 svg {
+    height: 200%;
+    width: 100%;
+    transform: rotate(180deg) scaleX(-1);
+}
+.part4Atention{
+    position: relative;
+    visibility: hidden;
+    height: 800px;
+    width: 100%;
+    margin-top: 800px;
+    background-color: transparent;
+}
+.part4Atention h2{
+    position: relative;
+    display: inline-block;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+    color:rgb(56, 3, 3);
+    font-weight: 700;
+    width: 70%;
+    top: -120%;
+    left: 3%;
+    
+}
+.part4Atention p{
+    position: relative;
+    display: inline-block;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 21px;
+    color: black;
+    font-weight: 400;
+    width: 50%;
+    top: -117%;
+    left: 3%;
+    
+}
+.wave3{
+    bottom: 600px;
+    
+}
+.wave3 path {
+    stroke: none;
+    fill:rgb(216, 45, 45);
+    opacity: .5;
+}  
+.wave3 svg {
+    height: 150%;
+    width: 100%;
+    transform: rotate(180deg) scaleX(-1);
+}
+.wave4{
+    bottom: 100px;
+}
+.wave4 path {
+    stroke: none;
+    fill:rgb(216, 45, 45);
+    opacity: .5;
+}  
+.wave4 svg {
+    height: 150%;
+    width: 100%;
+    transform: none;
+}
+.wave3Background{
+    position: relative;
+    width: 100%;
+    top: -50%;
+    height: 400px;
+    background-image: linear-gradient(to top, rgba(216, 45, 45, 0.5) 0%, rgba(216, 45, 45, 0.3) 60%, white);
+    border: none;
+}
+.wave4Background{
+    position: relative;
+    width: 100%;
+    top: 50%;
+    height: 400px;
+    background-image: linear-gradient(rgba(216, 45, 45, 0.5) 0%, rgba(216, 45, 45, 0.3) 60%, white);
+}
+.atentionCarrusel{
+    position: relative;
+    width: 28%;
+    height: 45%;
+    left: 68%;
+    top: -73%;
+    z-index: -1;
+    background-image: url('../../../../assets/carrusel1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation-name: animationCarruselAtention;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    opacity: .75;
+    box-shadow: inset 10px 0px 70px rgb(31, 30, 30);
+    box-shadow: 15px 0px 20px rgb(53, 52, 52);
+    border-radius: 60%;
+    border: 4px solid rgb(119, 6, 6);
+}
+.final{
+    position: relative;
+    height: 600px;
+    width: 50%;
+    visibility: hidden;
+    margin-top: 600px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #44ff70;
+    border-radius: 60%;
+    box-shadow: 0px 0px 100px 3px #44ff70;
+   left: 20%;
+
+}
+.final h2{
+    position: relative;
+    top: 16%;
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    border-radius: 40px;
+    font-size: 50px;
+    text-align: center;
+    color: rgb(1, 51, 8);
+    font-weight: 700;
+}
+.final button{
+    display: block;
+    height: 100px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(1, 51, 8);
+    background-color: white;
+    border: none;
+    box-shadow: 0px 0px 10px 1px rgb(206, 205, 205);
+    
+}
+.final button:hover{
+    cursor: pointer;
+}
+.final .icon{
+    position: relative;
+    font-size: 90px;
+    color: rgb(1, 51, 8);
+    top: 30%;
+    left: 44%;
+}
+
+.pricesImage2,
+.cualityImage2{
+    animation: moveCualityImage 1.5s ease-in-out forwards;
+    position: relative;
+    border: none;
+    top: 27%;
+    height: 110%;
+    width: 33%;
+    left: 10%;
+    border-radius: 20px;
+    z-index: 2;
+    background-color: #8cf1a2;
+    opacity: 1;
+    box-shadow: 0px 20px 25px 0px rgb(1, 26, 2);
+}
+
+.cualityImage2 img,
+.pricesImage2 img{
+    height: 90%;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 3.5%;
+    border-radius: 20px;
+    border: 5px solid rgb(3, 53, 16);
+}
+.pricesImage2 img{
+    border: 5px solid rgb(6, 2, 56);
+}
+.cualityImage2 button,
+.pricesImage2 button{
+    position: relative;
+    bottom: 7%;
+    height: 75px;
+    width: 80px;
+    border-radius: 60%;
+   left: 42%;
+   border: 5px solid rgb(3, 53, 16);
+   background-color: rgb(3, 53, 16);
+   box-shadow: 0px 0px 0px 2px white inset;
+}
+.cualityImage2 button:hover,
+.pricesImage2 button:hover{
+    cursor: pointer;
+}
+.cualityImage button:hover,
+.pricesImage button:hover{
+    cursor: pointer;
+}
+.cualityInformation button:hover,
+.pricesInformation button:hover{
+    cursor: pointer;
+}
+.cualityInformation2 button:hover,
+.pricesInformation2 button:hover{
+    cursor: pointer;
+}
+.pricesImage2 button{
+    border: 5px solid rgb(6, 2, 56);
+   background-color:   rgb(6, 2, 56);
+   box-shadow: 0px 0px 0px 2px white inset;
+}
+.pricesImage2{
+    animation: movePricesImage 1.5s ease-in-out forwards;
+    left: 63%;
+    box-shadow: 0px 20px 25px 0px rgb(1, 1, 26);
+    background-color: rgb(91, 216, 241);
+}
+
+
+
+
+
+
+
+.cualityInformation2,
+.pricesInformation2{
+    animation: moveCualityInformation 1.5s ease-in-out forwards;
+    position: relative;
+    border: none;
+    top: -115%;
+    height: 110%;
+    width: 33%;
+    left: 6%;
+    border-radius: 20px;
+    z-index: 1;
+    opacity: .3;
+    background-color: #9bdfab;
+    box-shadow: 0px 20px 25px -2px rgb(1, 26, 2);
+
+}
+.cualityInformation2 button,
+.pricesInformation2 button{
+    position: relative;
+    bottom: 7%;
+    height: 75px;
+    width: 80px;
+    border-radius: 60%;
+   left: 42%;
+   border: 5px solid rgb(3, 53, 16);
+   background-color: rgb(3, 53, 16);
+   box-shadow: 0px 0px 0px 2px white inset;
+}
+.pricesInformation2 button{
+   border: 5px solid rgb(6, 2, 56);
+   background-color:   rgb(6, 2, 56);
+   box-shadow: 0px 0px 0px 2px white inset;
+}
+.cualityInformation2 img,
+.pricesInformation2 img{
+    height: 90%;
+    width: 95%;
+    margin-left: 1.5%;
+    margin-top: 3.5%;
+    border-radius: 20px;
+    border: 5px solid rgb(3, 53, 16);
+}
+.pricesInformation2 img{
+    border: 5px solid rgb(6, 2, 56);
+}
+.pricesInformation2{
+    animation: movePricesInformation 1.5s ease-in-out forwards;
+    left: 59%;
+    box-shadow: 0px 20px 25px 0px rgb(1, 1, 26);
+    background-color: rgb(59, 151, 173);
+}
+
+.cualityInformation{
+    animation: moveCualityReverseInformation 1.5s ease-in-out;
+
+}
+.cualityImage{
+    animation: moveCualityReverseImage 1.5s ease-in-out;
+    
+}
+
+.pricesInformation{
+    animation: movePricesReverseInformation 1.5s ease-in-out;
+}
+.pricesImage{
+    animation: movePricesReverseImage 1.5s ease-in-out;
+    
+}

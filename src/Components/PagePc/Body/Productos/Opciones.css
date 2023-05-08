@@ -1,0 +1,67 @@
+.optionBarTitle{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:#005051;
+    font-weight: 600;
+    font-size: 20px;
+    width: 100%;
+    box-shadow: 0px 3px 6px rgb(179, 178, 178);
+    position: absolute;
+    top: 0%;
+    border-bottom: thin solid white;
+   
+}
+.optionBarFilter,
+.optionBarOrder{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 550;
+    color: #4d0303;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.optionBarHr{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -1px;
+    margin-bottom: 10px
+}
+.filterBar label,
+.orderBar label {
+    display: block;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    margin-top: 35px;
+   text-align: center;
+   color: #022d2e;
+} 
+
+.filterBar input,
+.orderBar input{
+    position: absolute;
+    display: inline-block;
+    margin-left: 40%;
+}
+.filterBarInput1{
+    top: 15%;
+}
+.filterBarInput2{
+    top: 23%;
+}
+
+.filterBarInput3{
+    top: 31.4%;
+}
+.filterBarInput4{
+    top: 46.7%;
+}
+.filterBarInput5{
+    top: 55%;
+}
+
+.filterBarInput6{
+    top: 63.3%;
+}
+
+.filterBarInput7{
+    top: 71.3%;
+}

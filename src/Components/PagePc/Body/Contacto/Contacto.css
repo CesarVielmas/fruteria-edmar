@@ -1,0 +1,356 @@
+@keyframes animationEnter {
+    0%{
+        transform: translateY(-50px); 
+        
+        opacity: .3;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: initial;
+    }
+}
+@keyframes animationEnterWave {
+    
+    0% {
+        transform: translateY(-50px) rotateY(180deg);
+        opacity: .3;
+      }
+      100% {
+        transform: translateY(0) rotateY(180deg);
+        opacity: initial;
+      }
+    
+}
+@keyframes animationCarrusel {
+    0%{
+        
+        background-image: url('../../../../assets/carrusel1.jpg');
+    }
+    25%{
+       
+        background-image: url('../../../../assets/carrusel2.jpg');
+    }
+    50%
+    {
+        
+        background-image: url('../../../../assets/carrusel3.jpg');
+    }
+    75%{
+        
+        background-image: url('../../../../assets/carrusel2.jpg');
+    }
+    100%{
+      
+        background-image: url('../../../../assets/carrusel4.jpg');
+    }
+}
+@keyframes animationIcon {
+    0%{
+        left: 50%;
+    }
+    100%{
+        left: 52%;
+    }
+}
+@keyframes animationCloud {
+    0%{
+        left: 71%;
+    }
+    100%{
+        left: 73%;
+    }
+}
+@keyframes animationButton {
+    0%{
+        left: 33.5%;
+    }
+    100%{
+        left: 35.5%;
+    }
+}
+.contact{
+    height: 800px;
+    width: 100%;
+}
+.contactForm{
+    height: 1200px;
+}
+.information,
+.informationClient{
+    position: relative;
+    background-image: linear-gradient(#fff,rgba(0, 255, 42, 0.09),rgba(0, 121, 10, .4));
+    background-size: cover;
+    width: 100%;
+    height: 30%;
+    z-index: 3;
+    border-bottom: thin solid rgba(0, 121, 10, .4);
+    
+}
+
+.information h1,
+.information p,
+.informationClient h1,
+.informationClient p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    margin-left: 10%;
+    color: rgb(1, 63, 12);
+    padding-top: 25px;
+}
+.information p,
+.informationClient p{
+    font-size: 24px;
+    width: 40%;
+}
+
+.waveInformation,
+.waveInformationClient{
+    position: relative;
+    background-size: cover; 
+    top: -4.32%;
+    width: 100%;
+    height: 40%;
+    margin-bottom: 25%;
+}
+.cloudInformation{
+    position: relative;
+    left: 71%;
+    top: -133%;
+    animation-name: animationCloud;
+    animation-duration: 2.7s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.iconContact{
+    position: relative;
+    font-size: 1450%;
+    left: 50%;
+    top: -211%;
+    color:rgb(71, 145, 83);
+    animation-name: animationIcon;
+    animation-duration: 2.7s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.buttonCloud{
+    position: relative;
+    height: 20%;
+    left: 33.5%;
+    top: -203%;
+    width: 17%;
+    border: none;
+    border-radius: 70px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    color: rgb(4, 139, 24);
+    font-weight: 700;
+    animation-name: animationButton;
+    animation-duration: 2.7s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.buttonCloud:hover{
+    color:  rgb(2, 85, 14) ;
+    border: thin solid   rgb(2, 85, 14) ;
+    cursor: pointer;
+}
+.animationOutIcon{
+    animation: none;
+    position: relative;
+    font-size: 1450%;
+    left: 50%;
+    top: -211%;
+    color:rgb(71, 145, 83);
+}
+.animationOutCloud{
+    position: relative;
+    left: 71%;
+    top: -133%;
+    animation: none;
+}
+.animationOutButton{
+    animation: none;
+}
+.informationClient{
+    background-image: linear-gradient(#fff,rgba(61, 128, 252, 0.09),rgba(148, 159, 255, 0.4));
+    border-bottom: thin solid rgba(148, 159, 255, 0.4);
+    z-index: 3;
+}
+.informationClient h1,
+.informationClient p{
+    margin-left: 57%;
+}
+.waveInformationClient{
+    transform: rotateY(180deg);
+}
+.carruselAuto{
+    position: relative;
+    top: -140%;
+    width: 35%;
+    height: 180%;
+    left: 10%;
+    background-image: url('../../../../assets/carrusel1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    animation-name: animationCarrusel;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    opacity: .75;
+    box-shadow: inset 10px 0px 70px white;
+    border: 4px solid #6565ff;
+}
+.cloudsCarrusel{
+    position: relative;
+    top: -155%;
+    left: 10%;
+}
+.informationClient{
+    animation-name: animationEnter;
+    animation-duration: 5s;
+
+}
+.moveWave{
+    animation-name: animationEnterWave;
+    animation-duration: 5s;
+}
+.hiddenAll{
+    visibility: hidden;
+}
+.formComplete{
+    position: relative;
+    border: thin solid white;
+    box-shadow: 0px 0px 10px rgb(206, 203, 203);
+    height: 1000px;
+    width: 90%;
+    left: 5%;
+    border-radius: 20px;
+    top: -50px;
+}
+.formComplete h2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color:rgb(1, 63, 12) ;
+    text-align: center;
+    margin-top: 10px;
+}
+.formComplete p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    color:rgb(97, 97, 97) ;
+    margin-left: 18%;
+    margin-top: 10px;
+}
+.formComplete label {
+    display: block;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+    color:rgb(0, 48, 9);
+    margin-top: 30px;
+   margin-left: 7%;
+
+}
+.formComplete input {
+    width: 90%;
+    height: 5%;
+    margin-left: 6%;
+    border: thin solid white;
+    box-shadow: 0px 0px 10px rgb(201, 199, 199);
+    border-radius: 70px;
+    font-size: 20px;
+    color: rgb(0, 48, 9);
+    padding-left: 30px;
+}
+.typeProblem {
+    text-align: center;
+}
+.problem label{
+    display: inline;
+    z-index: 10;
+}
+.problem input{
+    position: relative;
+    display: inline;
+    width: auto;
+    height: auto;
+    border: none;
+    box-shadow: none;
+    z-index: 10;
+}
+.problem1{
+    left: 28%;
+    top: -3px;
+    accent-color: rgb(112, 1, 48);
+}
+.problem2{
+    left: 38%;
+    top: -3px;
+    accent-color: rgb(4, 54, 66);
+}
+.problem3{
+    left: 50%;
+    top: -3px;
+    accent-color: rgb(0, 65, 11);
+}
+.problem4{
+    left: 53%;
+    top: -3px;
+    accent-color: rgb(7, 7, 32);
+}
+.problem{
+    display: inline-block;
+    width: 18.5%;
+    border: thin solid white;
+    margin-left: 6%;
+    box-shadow: 0px 0px 10px rgb(201, 199, 199);
+    border-radius: 70px;
+    margin-top: 10px;
+}
+.formComplete .textAsunt{
+    height: 300px;
+    margin-left: 4.4%;
+    text-align: justify;
+}
+.formComplete .asunt{
+    text-align: center;
+    margin-left: 28px;
+    margin-bottom: 10px;
+    
+}
+.formComplete input:focus{
+    outline: none;
+    border:thin solid #005051;
+}
+.formComplete .buttonConfirm,
+.formComplete .buttonError{
+    width: 30%;
+    height: 10%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    border-radius: 20px;
+    border: none;
+    box-shadow:  0px 5px 10px rgb(119, 117, 117);
+    background-color: rgb(0, 48, 9);
+    margin-left: 35%;
+    margin-top: 70px;
+    color: white;
+}
+.formComplete .buttonError{
+    background-color: rgb(71, 73, 71);
+}
+.formComplete .buttonConfirm:hover{
+    color:rgb(214, 209, 209) ;
+    cursor: pointer;
+}
+.formComplete .confirm{
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+}
+.formComplete .error{
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+}

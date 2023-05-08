@@ -1,13 +1,44 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+    margin: 0%;
+    
+}
+:root{
+    overflow-x: hidden;
+    --color-logo:#005051;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.addCart{
+    margin-right: 35px;
+    font-size: 40px;
+}
+.addCart:hover{
+    color: #4e7005;
+    cursor: pointer;
+}
+.deleteCart:hover{
+    color: #a35c20;
+    cursor: pointer;
+}
+.deleteCart{
+    font-size: 46px;
+    color: red;
+    margin-top: 2px;
+}
+.deleteCartButton,
+.addCartButton{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+}
+.addCartButton{
+    left: 13%;
+    top: 32%;
+}
+.deleteCartButton{
+    left: 76%;
+    top: 24%;
+}
+.addCartButton:hover,
+.deleteCartButton:hover{
+    cursor: pointer;
 }
