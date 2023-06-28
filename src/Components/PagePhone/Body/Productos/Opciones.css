@@ -1,0 +1,39 @@
+h1{
+    width: 100%;
+    font-size: 7.5vw;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-shadow: 0px 5px 10px -2px rgb(187, 185, 182);
+    color: #005051;
+}
+h2{
+    text-align: center;
+    font-size: 6vw;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 2%;
+    color: #4d0303;
+}
+hr{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.filterOptionPhone div,
+.orderOptionPhone div{
+    display: flex;
+}
+.filterOptionPhone div label,
+.orderOptionPhone div label{
+    flex: 1;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 4vw;
+    margin-left: 6vw;
+    margin-top: 1%;
+    color: #022d2e;
+}
+.filterOptionPhone div input,
+.orderOptionPhone div input{
+    flex: 1;
+    margin-top: 1%;
+    margin-left: 20vw;
+}

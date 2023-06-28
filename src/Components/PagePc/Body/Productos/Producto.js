@@ -2,13 +2,12 @@ import React, { useState } from 'react'
 import styled from 'styled-components'
 import {FaApple, FaAppleAlt} from 'react-icons/fa'
 import Detalles from './Detalles';
-import {MdLocalOffer} from 'react-icons/md';
 
 export default function Producto({id}) {
 const [cuantity, setCuantity] = useState(0);
 const [details,setDetails] = useState(false);
 const [viewDetails,setViewDetails] = useState(false);
-const [promotion,setPromotion] = useState(false);
+const [promotion,setPromotion] = useState(true);
 
   const clickDetails = ()=>setViewDetails(true);
   const closeDetails = ()=>setViewDetails(false);
@@ -26,7 +25,7 @@ const [promotion,setPromotion] = useState(false);
   
     const ButtonsAddDelete = styled.div`
     position: relative;
-    top: 6%;
+    top: 0%;
     width: 48%;
     font-size: 60px;
     text-align: center;
@@ -36,111 +35,116 @@ const [promotion,setPromotion] = useState(false);
      display: inline-block;
      position: relative;
      left: 10%;
-     border: thin solid white;
-     border-radius: 40px;
-     width: 270px;
-     height: 310px;
-     background-image: linear-gradient(#ffffff,#65e282);
+     border-radius: 25px;
+     width: 284px;
+     height: 340px;
      padding: 25px;
      margin-left: 65.5px;
      margin-bottom: 40px;
-     margin-top: 40px;
-     :hover{
-      box-shadow: 2px 4px 11px #838b81;
-     }
+     margin-top: 7%;
+     overflow:hidden;
+     box-shadow: 0px 0px 10px -6px black;
     `;
     const ButtonView = styled.button`
       position: absolute;
-      top: 70%;
+      top: 72%;
       right: 13%;
-      background-image: linear-gradient(#07660d,#55d558);
+      background-color: #4b7b4b;
       width: 120px;
       height: 35px;
-      border-radius: 70px;
+      border-radius: 10px;
       margin-right: 40%;
       color: white;
+      box-shadow: 0px 3px 8px 0px gray;
       font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
       font-size: 16px;
       border: none;
+      font-weight: 300;
       :hover{
         cursor:pointer;
-        background-image: linear-gradient(#55d558,#07660d);
       }
     `;
     const PromotionOffer = styled.div`
     position: absolute;
-    height: 22%;
-    width: 30%;
-    top: -8%;
-    left: 75.4%;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 710%;
-    color:#123622 ;
-    background-color: transparent;
-    transform: rotateZ(-75deg);
+    height: 35px;
+    width: 50%;
+    top: 16%;
+    left: -5%;
+    background-color: white;
+    box-shadow: 0px 0px 10px -6px black;
+    border-radius: 30px;
     `;
     const PromotionOfferText = styled.p`
     position: absolute;
     width: 70%;
     height: 80%;
-    font-size: 15px;
-    top: 32%;
-    z-index: 3;
+    font-size: 14px;
+    top: 0%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #ff0028;
-    left: 17%;
-    font-weight: bold;
-    padding-left: 6px;
-    padding-top: 10px;
-    transform: rotateZ(40deg);
+    left: 10%;
+    font-weight: 600;
+    padding-left: 10px;
+    overflow: visible;
     text-align: center;
     `;
     const DescriptionProduct = styled.p`
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 14.3px;
+    font-size: 14.5px;
     color:#20603c;
     position: absolute;
-    right:50% ;
-    top: 22%;
+    right:52% ;
+    top: 25%;
     height: 45%;
-    width: 49%;
-    
+    width: 47%;
+    font-weight: 300;
     `;
 
 
     const TitleProduct = styled.h2`
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 25px;
-    font-weight: 800;
+    font-weight: 600;
     text-align: center;
     position: relative;
     margin-bottom: 20px;
-    color: #4b7b4b;
-    `;
+    color: white;
+    border-radius: 10px;
+    height: 50px;
+    padding-top: 10px;
+    width: 125%;
+    left: -12.5%;
+    top:-8.5%;
+    background-color: #4b7b4b;
+      
+      `;
 
     const ImgProduct = styled.img`
     position: relative;
     height: 60%;
     width: 55%;
-    border-radius: 40px;
+    border-radius: 20px;
+    box-shadow: 0px 3px 10px -2px black;
     left: 50%;
+    top: -10%;
     `;
   //Filtro
   const Filter = styled.p`
   position: absolute;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 15px;
-  font-weight: 900;
-  width:110px;
+  font-weight: 600;
+  width:140px;
   height: 22px;
-  border-radius: 70px;
+  border-radius: 5px;
   text-align: center;
-  left: 56%;
+  left: 52%;
   `;
   
   //Contador
     const AddingProduct = styled(Filter)`
       font-size: 18px;
-      top: 45%;
+      top: 40%;
       left: 45%;
       border: none;
       width: auto;
@@ -219,7 +223,7 @@ const [promotion,setPromotion] = useState(false);
    <CardProduct id={"Products"+id}>
     {
       (promotion)
-      ?<PromotionOffer><MdLocalOffer id={"Products"+id}/><PromotionOfferText id={"Products"+id}>Promocion !2x<span style={{color:"green"}}>$150</span>!</PromotionOfferText></PromotionOffer>
+      ?<PromotionOffer><PromotionOfferText id={"Products"+id}>Promocion !2x<span style={{color:"green"}}>$150</span>!</PromotionOfferText></PromotionOffer>
       :""
     }
     <TitleProduct id={"Products"+id}>Platano Macho</TitleProduct>

@@ -305,7 +305,7 @@ export default function Home({changeToSesion}) {
         <h2>Atencion Calida</h2>
         <p>Contamos con una calidad excelente para nuestros clientes , pues nuestros clientes siempre son primero</p>
        <BiUserVoice className='user'/>
-       <AiOutlineUser className='user'/>
+       <AiOutlineUser className='user'/> 
       </div>
     </div>
 
@@ -315,6 +315,7 @@ export default function Home({changeToSesion}) {
           <path d="M-13.82,43.08 C149.99,201.58 350.52,-49.08 513.30,82.88 L500.00,150.00 L0.00,150.00 Z"></path>
         </svg>
       </div>
+      
       <div className='exampleCualityImage cualityImage'>
       <img src={calidadImage} alt="Calidad"/>
       <button onClick={handlerClickCuality}></button>
@@ -372,7 +373,7 @@ export default function Home({changeToSesion}) {
       this variable directly inside useEffect  react-hooks/exhaustive-deps </p>
     </div>
 
-    <div class='final'>
+    <div className='final'>
       <h2>Unete Y Pide Ahora</h2>
       <div className='icon'><CiDeliveryTruck/></div>
       <button onClick={changeToSesion}>Registrarme</button>

@@ -1,0 +1,120 @@
+.acountOptions{
+    position: fixed;
+    height: 100vh;
+    width: 25vw;
+    box-shadow: 0px 0px 10px 0px black;
+}
+.acountOptions h2{
+    width: 100%;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 35px;
+    height: 70px;
+    padding-top: 15px;
+    box-shadow: 0px 0px 5px 0px black;
+    color: rgb(10, 10, 87);
+    font-weight: 300;
+    margin-bottom: 20%;
+}
+.acountOptionEdit,
+.acountOptionCart,
+.acountOptionPurchases,
+.activeOptionEdit,
+.activeOptionCart,
+.activeOptionPurchases{
+    margin-bottom: 15%;
+    height: 80px;
+    width: 100%;
+    box-shadow: 0px 0px 10px -6px black;
+}
+.activeOptionEdit,
+.activeOptionCart,
+.activeOptionPurchases{
+    border-top: 2px solid rgb(5, 5, 56);
+    border-bottom: 2px solid rgb(5, 5, 56);
+    background-color: rgba(9, 9, 49,.2);
+}
+
+.acountOptionEdit:hover,
+.acountOptionCart:hover,
+.acountOptionPurchases:hover{
+   cursor: pointer;
+    box-shadow: 0px 0px 10px -2px black;
+}
+.acountOptionEdit h2,
+.acountOptionCart h2,
+.acountOptionPurchases h2,
+.activeOptionEdit h2,
+.activeOptionCart h2,
+.activeOptionPurchases h2{
+    position: relative;
+    box-shadow: none;
+    font-size: 30px;
+    color: rgb(33, 79, 179);
+    height: auto;
+    width: 80%;
+    left: 20%;
+}
+.acountOptionEdit h2,
+.activeOptionEdit h2,
+.activeOptionCart h2{
+    left: 0%;
+}
+.acountOptionCart h2{
+    left: 0%;
+}
+
+.acountOptionEdit .iconOption,
+.acountOptionCart .iconOption,
+.acountOptionPurchases .iconOption,
+.activeOptionEdit .iconOption,
+.activeOptionCart .iconOption,
+.activeOptionPurchases .iconOption{
+    position: absolute;
+    font-size: 60px;
+    top: 23.5%;
+    left: 4%;
+    text-align: center;
+    color: rgb(4, 4, 59);
+}
+.acountOptionCart .iconOption,
+.activeOptionCart .iconOption{
+    top: 43.5%;
+}
+.acountOptionPurchases .iconOption,
+.activeOptionPurchases .iconOption{
+    top: 62.5%;
+}
+.acountOptionIcons{
+    display: flex;
+    margin-top: 10%;
+    width: 100%;
+    height: 17.7%;
+    box-shadow: -3px 0px 10px -2px black;
+}
+.acountOptionIcons [class*="iconContentAcount"]{
+    flex: 1;
+   font-size: 50px;
+   padding-top: 40px;
+   color: rgb(3, 3, 61);
+}
+.acountOptionIcons .iconContentAcount2,
+.acountOptionIcons .iconContentAcount3,
+.acountOptionIcons .iconContentAcount4{
+    color: rgb(58, 58, 109);
+}
+.acountOptionIcons .iconContentAcount2:hover,
+.acountOptionIcons .iconContentAcount3:hover,
+.acountOptionIcons .iconContentAcount4:hover{
+    cursor: pointer;
+    color: rgb(22, 22, 51);
+}
+.acountOptionIcons .iconContentAcount1:hover{
+    cursor: pointer;
+
+}
+.acountContent{
+    width: 75.3%;
+    margin-left: 25.5%;
+    height: 1000px;
+}

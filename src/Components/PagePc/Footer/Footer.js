@@ -9,17 +9,24 @@ import {IoLogoWhatsapp} from 'react-icons/io';
 export default function FooterPage() {
   const [style1, setStyle1] = useState("auto");
   const [style2, setStyle2] = useState("auto");
-  const refElements = createRef();
+  let refElements = document.querySelector('.bottomCheck');
   
+  const handleResize = () => {
+    let value = `${window.getComputedStyle(refElements).getPropertyValue('bottom')}`;
+    let valueWithoutPx = parseFloat(value.replace("px", ""));
+   
+
+    setStyle1(`${(valueWithoutPx-330)}px`); 
+    setStyle2(`${(valueWithoutPx-410)}px`); 
+  };
+
   useEffect(() => {
-  let value = `${window.getComputedStyle(refElements.current).getPropertyValue('bottom')}`;
+    refElements = document.querySelector('.bottomCheck');
+    window.addEventListener('resize', handleResize);
 
-  const regex = /(-?\d+)px/;
-  const matches = regex.exec(value);
-  value = matches[1];
-
-  setStyle1(`${(value-320)}px`); 
-  setStyle2(`${(value-405)}px`); 
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
   }, [refElements])
   
   const FooterWave = styled.img`
@@ -46,7 +53,7 @@ export default function FooterPage() {
   `;
   return (
     <>
-    <Example ref={refElements}/>
+    <Example className='bottomCheck'/>
     <div className='footerBackground'>
     <FooterWave src={footerWave} alt='wave'/>
     <CompleteWave/>

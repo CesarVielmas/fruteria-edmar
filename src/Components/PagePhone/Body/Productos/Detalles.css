@@ -1,0 +1,120 @@
+.detallesPhoneView{
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(2, 43, 7,.3);
+    z-index: 1;
+}
+.detallesPhone{
+    height: 95%;
+    background-color: white;
+    margin-top: 4%;
+    border-radius: 10px;
+    width: 97%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+.detallesPhone h2{
+    position: relative;
+    width: 105%;
+    left: -2.5%;
+    text-align: center;
+    background-color: #4b7b4b;
+    top: -1.7%;
+    height: 8%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-size: 8.5vw;
+}
+.detallesPhone .detallesAditionalPhone{
+    overflow: scroll;
+    height: 75%;
+    width: 100%;
+}
+.detallesPhone .detallesAditionalPhone img{
+    display: block;
+    height: 55%;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    box-shadow: 0px 3px 10px -2px black;
+}
+.detallesPhone .detallesAditionalPhone p{
+    margin-left: auto;
+    margin-right: auto;
+    border: thin solid black;
+    height: 8vw;
+    margin-top: 2%;
+    text-align: center;
+    width: 90%;
+    color: #ffffff;
+    border: thin solid #e7903c;
+    box-shadow: 1px 2px 4px #945d24;
+    font-size: 4vw;
+    background-color: #e7903c;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+}
+.detallesPhone .detallesAditionalPhone .textPhone{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 4.5vw;
+    color:#20603c;
+    font-weight: 300;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border: none;
+    background-color: transparent;
+    box-shadow: none;
+    text-align: start;
+}
+.detallesPhone .buttonAddCartPhone{
+    display: block;
+    width: 75%;
+    height: 5%;
+    border-radius: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #ffffff;
+    background-color: rgb(34, 29, 29);
+    margin-top: 2%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 4vw;
+    border: none;
+}
+.detallesPhone .buttonWikiPhone{
+    display: block;
+    width: 75%;
+    height: 5%;
+    border-radius: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    color: rgb(34, 29, 29);
+    margin-top: 2%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 4vw;
+    border: none;
+    box-shadow: 1px 2px 4px rgb(187, 185, 182);
+}
+.detallesPhone .buttonRecetasPhone{
+    position: absolute;
+    top: 87%;
+    left: 0%;
+    font-size: 8vw;
+    border: none;
+    background-color: transparent;
+    text-align: center;
+}
+.detallesPhone .buttonClosePhone{
+    position: absolute;
+    border: none;
+    background-color: transparent;
+    color: rgb(112, 4, 4);
+    left: 87%;
+    top: 3%;
+    font-size: 9vw;
+    z-index: 1;
+}

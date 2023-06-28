@@ -5,11 +5,13 @@ import IndexPhone from './Components/PagePhone/indexPhone';
 function App() {
   const [vista,setVista] = useState(window.screenX);
 
-  window.addEventListener("resize",()=>setVista(window.screenX));
+  window.addEventListener("resize",()=>{
+    setVista(window.innerWidth);
+  });
   return (
     <>
     {
-        (vista>540)
+        (vista<1240)
         ?<IndexPhone/>
         :<IndexPC/>
     }

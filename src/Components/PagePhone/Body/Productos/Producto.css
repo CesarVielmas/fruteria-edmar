@@ -1,0 +1,135 @@
+.productoPhone{
+    position: relative;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 158vw;
+    overflow: hidden;
+    margin-bottom: 6vh;
+    border-radius: 10px;
+    box-shadow: 0px 3px 8px 0px gray;
+    margin-top: 1vh;
+}
+.productoPhone h2{
+    position: relative;
+    left: -2.5%;
+    width: 105%;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #4b7b4b;
+    font-size: 8vw;
+    font-weight: 600;
+    border-radius: 10px;
+    color: white;
+    z-index: -1;
+    margin-bottom: 1%;
+}
+.productoPhone .promotionProductoPhone{
+    width: 100%;
+    height: 6.5vw;
+    color: #ff0028;
+    font-weight: 600;
+    background-color: white;
+    box-shadow: 0px 0px 10px -5px black;    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 5vw;
+    text-align: center;
+}
+.productoPhone .descriptionProductoPhone{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 4.5vw;
+    color:#20603c;
+    font-weight: 300;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.productoPhone img{
+    height: 40%;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0px 3px 10px -2px black;
+}
+.productoPhone .buttonDetailsPhone{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2.5%;
+    background-color: #4b7b4b;
+    width: 45%;
+    height: 12vw;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0px 3px 8px 0px gray;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 5vw;
+    border: none;
+    font-weight: 300;
+}
+.productoPhone .typesProductoPhone p{
+    margin-left: auto;
+    margin-right: auto;
+    border: thin solid black;
+    height: 8vw;
+    margin-top: 2%;
+    text-align: center;
+    color: #ffffff;
+    border: thin solid #e7903c;
+    box-shadow: 1px 2px 4px #945d24;
+    background-color: #e7903c;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+}
+.productoPhone .buttonPhoneAccess1{
+    position: absolute;
+    height: 15vw;
+    width: 16%;
+    overflow: hidden;
+    border-radius: 60%;
+    top: .2%;
+    left: 83%;
+    background-color: #4b7b4b;
+}
+.productoPhone .buttonPhoneAccess2{
+    position: absolute;
+    height: 50vw;
+    width: 18%;
+    border-radius: 10px;
+    top: 1.2%;
+    left: 81%;
+    background-color: #4b7b4b;
+    overflow: visible;
+}
+.buttonPhoneAccess1 .button,
+.buttonPhoneAccess2 .button{
+    display: block;
+    font-size: 10vw;
+    width: 100%;
+    padding-top: 2.5vw;
+    text-align: center;
+    margin-bottom: 15%;
+    color: white;
+}
+.buttonPhoneAccess2 .productoAddPhone{
+    display: block;
+    font-size: 10.5vw;
+    text-align: center;
+    width: 100%;
+    color: rgb(141, 235, 141);
+    background-color: transparent;
+    border: none;
+}
+.buttonPhoneAccess2 .productoRemovePhone{
+    display: block;
+    font-size: 12.5vw;
+    text-align: center;
+    width: 100%;
+    color: red;
+    background-color: transparent;
+    border: none;
+}
+.buttonPhoneAccess2 .productoCuantityPhone{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 6.5vw;
+    color: white;
+}

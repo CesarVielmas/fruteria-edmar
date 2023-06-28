@@ -1,0 +1,114 @@
+.purchasesAcountPedido{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    margin-top: 10%;
+    border-radius: 10px;
+    background-color: rgba(75, 74, 74,.2);
+    box-shadow: 0px 8px 10px -3px rgb(112, 111, 111);
+}
+.detailsPurchasesAcountPedido,
+.deletePurchasesAcountPedido{
+    position: relative;
+    left: 78%;
+    width: 20%;
+    top: -52%;
+    height: 23%;
+    border: none;
+    border-radius: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    background-color: rgb(4, 48, 23);
+    font-weight: 300;
+    font-size: 18px;
+}
+.detailsPurchasesAcountPedido:hover,
+.deletePurchasesAcountPedido:hover{
+    cursor: pointer;
+}
+.deletePurchasesAcountPedido{
+    left: 58%;
+    top: -20%;
+    background-color: rgb(63, 10, 10);
+}
+.flexProductsPurchasesPedido{
+    display: flex;
+    position: relative;
+    width: 75%;
+    height: 73%;
+    top: 5%;
+    box-shadow: 0px 0px 10px -6px black;
+    border-radius: 10px;
+    margin-left: 2%;
+}
+.totalPurchasesAcountPedido{
+    position: relative;
+    top: -15%;
+    left: 40%;
+    font-size: 22px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(14, 3, 65);
+    font-weight: 600;
+}
+.timePurchaseAcountPedido{
+    position: relative;
+    width: 10%;
+    height: 40%;
+    border-radius: 60%;
+    top: -135%;
+    left: 93%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    padding-top: 5px;
+    color: white;
+    text-align: center;
+    background-color: rgb(20, 20, 51);
+    font-weight: 300;
+    box-shadow: 5px 0px 10px -3px rgb(112, 111, 111);
+}
+.timePurchaseAcountPedido .iconTimePedido{
+    font-size: 25px;
+}
+.iconSuspendedPointsPedido{
+    font-size: 45px;
+    padding-top: 105px;
+    color: rgb(3, 2, 43);
+}
+.iconSuspendedPointsPedido,
+.flexPurchasePedido{
+    flex: 1;
+}
+.flexPurchasePedido{
+    flex-grow: 2;
+}
+.iconSuspendedPointsPedido{
+    flex-shrink: 2;
+}
+.typePurchaseAcountPedido,
+.statePurchaseAcountPedido{
+    position: relative;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    margin-bottom: 5px;
+    top: -78%;
+    left: 78.5%;
+    color: rgb(46, 95, 54);
+    font-weight: 300;
+}
+.typePurchaseAcountPedido{
+    color: rgb(175, 48, 44);
+}
+.input1PurchaseAcountPedido,
+.input2PurchaseAcountPedido
+{
+    position: relative;
+    top: -102%;
+    left: 96.5%;
+    accent-color: rgb(175, 48, 44);
+}
+.input2PurchaseAcountPedido{
+    accent-color:  rgb(46, 95, 54);
+    top: -90%;
+    left: 95.1%;
+}

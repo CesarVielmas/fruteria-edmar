@@ -1,0 +1,60 @@
+.completeWavePhone{
+    position: absolute;
+    bottom: auto;
+    width: 100%;
+    height: 10vh;
+    background-color: #1B4722;
+    z-index: -1;
+}
+.wavePhoneFooter{
+   position: absolute;
+   width: 100%;
+   bottom: 58px;
+   z-index: -1;
+}
+.wavePhoneFooter img{
+    height: auto;
+    width: 100%;
+}
+.flexCompleteWavePart1,
+.rulesPhone{
+    margin-top: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: center;
+   
+}
+.helperPagesPhoneText,
+.rulesTextPhone{
+    position: relative;
+    flex: 1;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.6vh;
+    color: rgb(148, 182, 141);
+    top: -15%;
+}
+.phoneText1,
+.phoneText4{
+    flex: .7;
+}
+.divide1Phone{
+    position: relative;
+    width: 80%;
+    left: 9%;
+    top: -0%;
+    border-color:rgb(177, 255, 190);
+    border-width: .2vh;
+    border-style: solid;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.waveLogoPhone{
+    position: absolute;
+    height: 120%;
+    width: 30%;
+    top: -11vh;
+    left: 24%;
+    box-shadow: inset 0px 20px 20px 20px #1B4722;
+    border-radius: 60%;
+}

@@ -3,7 +3,6 @@
     position: relative;
     height: 950px;
     width: 100%;
-    
     padding-top: 5px;
     padding-bottom: 5px;
     
@@ -27,7 +26,7 @@
     border: none;
     background-color: transparent;
     left: 88.9%;
-    top: 81%;
+    top: 81%; 
    text-align: center;
    color: rgb(255, 255, 255);
    font-size: 30px;

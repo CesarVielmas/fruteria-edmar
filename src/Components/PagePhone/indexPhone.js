@@ -1,7 +1,25 @@
-import React from 'react'
+import React, { useState } from 'react'
+import Header from './Header/Header'
+import Footer from './Footer/Footer'
+import Body from './Body/Body'
+import IndexSesion from './Sesion/IndexSesion';
 
 export default function IndexPhone() {
+  const [sesion, setSesion] = useState(false);
+  const handlerSesion = () =>{
+    if (sesion) setSesion(false);
+    else setSesion(true);
+  }
   return (
-    <h1>Phone</h1>
+    <>
+    {
+      sesion
+      ?<IndexSesion regresarPage={handlerSesion}/>
+      :<><Header cambiarSesion = {handlerSesion}/>
+      <Body/>
+      <Footer/>
+      </>
+    }
+    </>
   )
 }

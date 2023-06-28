@@ -31,14 +31,15 @@
     position: absolute;
 }
 .addCartButton{
-    left: 13%;
+    left: 15%;
     top: 32%;
 }
 .deleteCartButton{
-    left: 76%;
+    left: 74%;
     top: 24%;
 }
 .addCartButton:hover,
 .deleteCartButton:hover{
     cursor: pointer;
 }
+

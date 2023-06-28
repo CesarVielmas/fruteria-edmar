@@ -1,0 +1,224 @@
+@keyframes animationCarruselPhone {
+    0%{
+        
+        background-image: url('../../../../assets/carrusel1.jpg');
+    }
+    25%{
+       
+        background-image: url('../../../../assets/carrusel2.jpg');
+    }
+    50%
+    {
+        
+        background-image: url('../../../../assets/carrusel3.jpg');
+    }
+    75%{
+        
+        background-image: url('../../../../assets/carrusel2.jpg');
+    }
+    100%{
+      
+        background-image: url('../../../../assets/carrusel4.jpg');
+    }
+}
+.needHelpPhone{
+    position: relative;
+    height: 150vw;
+    width: 150%;
+    background-color: rgba(0, 121, 10, .2);
+    left: -25%;
+    top: -5vh;
+    border-radius: 50% / 15vh;
+    margin-bottom: 40vh;
+    border-bottom: 3px solid #005051;
+    padding: 0px;
+}
+.needHelpPhone h2,
+.needHelpPhone p{
+    position: relative;
+    top: 17vw;
+    width: 66.5%;
+    left: 16.5%;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:rgb(1, 63, 12);
+}
+.needHelpPhone h2{
+    font-size: 11vw;
+}
+.needHelpPhone p{
+    top: 22vw;
+    font-size: 5.2vw;
+    font-weight: 300;
+}
+.needHelpPhone button{
+    position: relative;
+    display: block;
+    left: 32%;
+    top: 30vw;
+    width: 35%;
+    height: 11%;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(1, 63, 12);
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 5.2vw;
+    font-weight: 300;
+}
+.needHelpPhone img{
+    position: relative;
+    top: 33vw;
+    height: 75vw;
+    left: 14%;
+    transform:rotate(-2deg) scaleX(-1);
+}
+.mostImportantPhone{
+    position: relative;
+    margin-bottom: 20vh;
+    border-radius: 5px;
+    height: 100vw;
+    width: 90%;
+    margin-left: 5%;
+    background-color: rgba(148, 159, 255, 0.2);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(1, 63, 12);
+    border: thin solid #6565ff;
+}
+.mostImportantPhone h2{
+    position: relative;
+    top: 25%;
+    font-size: 11vw;
+    text-align: center;
+}
+.mostImportantPhone p{
+    position: relative;
+    top: 27%;
+    width: 97%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 5.2vw;
+}
+.imageImportantPhone{
+    position: absolute;
+    height: 50%;
+    width: 55%;
+    top: -28%;
+    left: 22%;
+    background-image: url('../../../../assets/carrusel1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    animation-name: animationCarruselPhone;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    box-shadow: inset 10px 0px 70px white;
+    border: thin solid #6565ff;
+   
+}
+.formImportantPhone{
+    height: 190vw;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border: thin solid white;
+    box-shadow: 0px 0px 10px 3px rgb(206, 203, 203);
+    border-radius: 2vw;
+    margin-bottom: 25vh;
+}
+.formImportantPhone h2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 7.5vw;
+    text-align: center;
+    margin-top: 5%;
+    color: rgb(1, 63, 12);
+
+}
+.formImportantPhone p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 3.5vw;
+    text-align: center;
+    margin-top: 3%;
+    color: rgb(97, 97, 97);
+    margin-bottom: 5%;
+}
+.nameFormPhone label,
+.emailFormPhone label,
+.typeFormPhone label,
+.asuntFormPhone label{
+    display: block;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 6vw;
+    color:rgb(0, 48, 9);
+    margin-top: 5%;
+    text-align: center;
+}
+.nameFormPhone input,
+.emailFormPhone input,
+.typeFormPhone input,
+.asuntFormPhone input{
+    width: 87%;
+    height: 8vw;
+    margin-left: 6%;
+    border: thin solid white;
+    box-shadow: 0px 0px 10px rgb(201, 199, 199);
+    border-radius: 5px;
+    font-size: 5vw;
+    color: rgb(0, 48, 9);
+    text-align: center;
+}
+.asuntFormPhone input{
+    height: 50vw;
+}
+.typeFormPhone .typeFlexPhone{
+     display: flex;
+     height: 30%;
+     width: 95%;
+     margin-left: auto;
+     margin-right: auto;
+}
+.typeFormPhone .typeFlexPhone div{
+    flex: 1;
+    margin-left: 2%;
+    border: thin solid white;
+    box-shadow: 0px 0px 10px -2px rgb(201, 199, 199);
+    border-radius: 10px;
+
+}
+.typeFlexPhone div label{
+    font-size: 4vw;
+}
+.typeFlexPhone div input{
+    box-shadow: none;
+    height: 5vw;
+    border: none;
+}
+.typeFlexPhone div #productosPhone{
+    accent-color: rgb(112, 1, 48);
+}
+.typeFlexPhone div #serviciosPhone{
+    accent-color: rgb(4, 54, 66);
+} 
+.typeFlexPhone div#envioPhone{
+    accent-color: rgb(0, 65, 11);
+}
+.typeFlexPhone div #otrosPhone{    
+    accent-color: rgb(7, 7, 32);
+}
+.formImportantPhone button{
+    display: block;
+    width: 70%;
+    height: 10%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 5vw;
+    border-radius: 20px;
+    border: none;
+    box-shadow:  0px 5px 10px rgb(119, 117, 117);
+    background-color: rgb(0, 48, 9);
+    margin-left: auto;
+    margin-top: 7%;
+    margin-right: auto;
+    color: white;
+}

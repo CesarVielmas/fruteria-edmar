@@ -1,0 +1,862 @@
+@keyframes animateChangeImage {
+    0%{
+       opacity: .7;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes animationCarruselAtention {
+    0%{
+        
+        background-image: url('../../../../assets/carrusel1.jpg');
+    }
+    25%{
+       
+        background-image: url('../../../../assets/carrusel2.jpg');
+    }
+    50%
+    {
+        
+        background-image: url('../../../../assets/carrusel3.jpg');
+    }
+    75%{
+        
+        background-image: url('../../../../assets/carrusel2.jpg');
+    }
+    100%{
+      
+        background-image: url('../../../../assets/carrusel4.jpg');
+    }
+}
+@keyframes animateChangeImage2 {
+    0%{
+        opacity: .7;
+     }
+     100%{
+         opacity: 1;
+     }
+}
+@keyframes animateVisibilityAdd {
+    0%{
+        visibility: visible;
+        opacity: .1;
+    }
+    100%{
+        visibility: visible;
+        opacity: 1;
+    }
+}
+@keyframes moveCualityInformation {
+    from {
+        position: relative;
+        border: none;
+        top: -100vw;
+        height: 75vw;
+        width: 70%;
+        left: 15%;
+        border-radius: 20px;
+        z-index: 2;
+        background-color: #9bdfab;
+        box-shadow: 0px 20px 25px -2px rgb(1, 26, 2);
+    
+    }
+    to {
+        position: relative;
+        border: none;
+        top: -118vw;
+        height: 75vw;
+        width: 70%;
+        left: 14%;
+        border-radius: 20px;
+        z-index: 1;
+        background-color: #8cf1a2;
+        opacity: .3;
+        box-shadow: 0px 20px 25px 0px rgb(1, 26, 2);
+    }
+  }
+  @keyframes moveCualityImage {
+    from {
+        position: relative;
+        border: none;
+        top: -24vh;
+        height: 75vw;
+        width: 70%;
+        left: 14%;
+        border-radius: 20px;
+        z-index: 1;
+        background-color: #8cf1a2;
+        opacity: .3;
+        box-shadow: 0px 20px 25px 0px rgb(1, 26, 2);
+    }
+    to {
+        position: relative;
+        border: none;
+        top: -25vw;
+        height: 75vw;
+        width: 70%;
+        left: 15%;
+        border-radius: 20px;
+        z-index: 2;
+        background-color: #9bdfab;
+        box-shadow: 0px 20px 25px -2px rgb(1, 26, 2);
+    }
+  }
+  @keyframes moveCualityReverseImage {
+    from {
+        position: relative;
+        border: none;
+        top: -25vw;
+        height: 75vw;
+        width: 70%;
+        left: 15%;
+        border-radius: 20px;
+        z-index: 2;
+        background-color: #9bdfab;
+        box-shadow: 0px 20px 25px -2px rgb(1, 26, 2);
+    }
+    to {
+        position: relative;
+        border: none;
+        top: -24vh;
+        height: 75vw;
+        width: 70%;
+        left: 14%;
+        border-radius: 20px;
+        z-index: 1;
+        background-color: #8cf1a2;
+        opacity: .3;
+        box-shadow: 0px 20px 25px 0px rgb(1, 26, 2);
+    }
+  }
+  @keyframes moveCualityReverseInformation {
+    from {
+        position: relative;
+        border: none;
+        top: -118vw;
+        height: 75vw;
+        width: 70%;
+        left: 14%;
+        border-radius: 20px;
+        z-index: 1;
+        background-color: #8cf1a2;
+        opacity: .3;
+        box-shadow: 0px 20px 25px 0px rgb(1, 26, 2);
+
+      
+    }
+    to {
+        position: relative;
+        border: none;
+        top: -100vw;
+        height: 75vw;
+        width: 70%;
+        left: 15%;
+        border-radius: 20px;
+        z-index: 2;
+        background-color: #9bdfab;
+        box-shadow: 0px 20px 25px -2px rgb(1, 26, 2);
+    }
+  }
+  @keyframes movePricesImage {
+    from {
+        position: relative;
+        border: none;
+        top: -24vh;
+        height: 75vw;
+        width: 70%;
+        left: 14%;
+        border-radius: 20px;
+        z-index: 1;
+        background-color: rgb(91, 216, 241);
+        opacity: .3;
+        box-shadow: 0px 20px 25px 0px rgb(1, 26, 2);
+    }
+    to {
+        position: relative;
+        border: none;
+        top: -25vw;
+        height: 75vw;
+        width: 70%;
+        left: 15%;
+        border-radius: 20px;
+        z-index: 2;
+        background-color: rgb(91, 216, 241);
+        box-shadow: 0px 20px 25px -2px rgb(1, 26, 2);
+    }
+  }
+  @keyframes movePricesInformation {
+    from {
+        position: relative;
+        border: none;
+        top: -100vw;
+        height: 75vw;
+        width: 70%;
+        left: 15%;
+        border-radius: 20px;
+        z-index: 2;
+        background-color: rgb(91, 216, 241);
+        box-shadow: 0px 20px 25px -2px rgb(1, 26, 2);
+    
+    }
+    to {
+        position: relative;
+        border: none;
+        top: -118vw;
+        height: 75vw;
+        width: 70%;
+        left: 14%;
+        border-radius: 20px;
+        z-index: 1;
+        background-color: rgb(91, 216, 241);
+        opacity: .3;
+        box-shadow: 0px 20px 25px 0px rgb(1, 26, 2);
+    }
+  }
+
+  @keyframes movePricesReverseImage {
+    from {
+        position: relative;
+        border: none;
+        top: -25vw;
+        height: 75vw;
+        width: 70%;
+        left: 15%;
+        border-radius: 20px;
+        z-index: 2;
+        background-color: rgb(91, 216, 241);
+        box-shadow: 0px 20px 25px -2px rgb(1, 26, 2);
+    }
+    to {
+        position: relative;
+        border: none;
+        top: -24vh;
+        height: 75vw;
+        width: 70%;
+        left: 14%;
+        border-radius: 20px;
+        z-index: 1;
+        background-color: rgb(91, 216, 241);
+        opacity: .3;
+        box-shadow: 0px 20px 25px 0px rgb(1, 26, 2);
+    }
+  }
+  @keyframes movePricesReverseInformation {
+    from {
+        position: relative;
+        border: none;
+        top: -118vw;
+        height: 75vw;
+        width: 70%;
+        left: 14%;
+        border-radius: 20px;
+        z-index: 1;
+        background-color: rgb(91, 216, 241);
+        opacity: .3;
+        box-shadow: 0px 20px 25px 0px rgb(1, 26, 2);
+
+      
+    }
+    to {
+        position: relative;
+        border: none;
+        top: -100vw;
+        height: 75vw;
+        width: 70%;
+        left: 15%;
+        border-radius: 20px;
+        z-index: 2;
+        background-color: rgb(91, 216, 241);
+        box-shadow: 0px 20px 25px -2px rgb(1, 26, 2);
+    }
+  }
+  @keyframes animateVisiblePhoneComplete {
+    from{
+        visibility: visible;
+        opacity: .1;
+    }
+    to{
+        visibility: visible;
+        opacity: 1;
+    }
+  }
+.carruselImagePhone{
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    overflow: hidden;
+    border-bottom: 3px solid #005051;
+}
+.carruselImagePhone img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.carruselHomePhone1,
+.carruselHomePhone2,
+.carruselHomePhone3,
+.carruselHomePhone4,
+.carruselHomePhone5{
+    left: 100%;
+}
+.activo{
+    left: 0;
+    animation-name: animateChangeImage;
+    animation-duration: 2s;
+
+}
+.activo2{
+    left: 0;
+    animation-name: animateChangeImage2;
+    animation-duration: 2s;
+}
+.infoCarruselPhone{
+    width: 100%;
+    height: 40vh;
+    background-color: rgba(38, 109, 35,.5);
+}
+.infoCarruselPhone h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 3.5vh;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 5%;
+    font-weight: 600;
+}
+.infoCarruselPhone button{
+    display: block;
+    height: 8vh;
+    width: 55%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   background-color: rgb(7, 58, 1);
+   color: white;
+   border: none;
+   border-radius: 5px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 5%;
+   box-shadow: 2px 10px 20px black;
+   font-size: 2.7vh;
+}
+.infoCarruselPhone hr{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8%;
+}
+.carruselStatePhone{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    height: 3.5vh;
+}
+#statePhone1,
+#statePhone2,
+#statePhone3,
+#statePhone4,
+#statePhone5,
+#statePhoneActive{
+    flex: 1;
+    margin-top: 5%;
+    color: white;
+}
+#statePhoneActive{
+    color: rgb(75, 175, 8);
+}
+
+.excelentCualityPhone,
+.pricesAccesibilityPhone,
+.atentionCualityPhone{
+    height: 110vw;
+    width: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    visibility: hidden;
+}
+.excelentCualityPhone{
+    background-color:rgb(2, 2, 51,.15);
+}
+.pricesAccesibilityPhone{
+    background-color: rgb(56, 3, 3,.2);
+}
+.atentionCualityPhone{
+    background-color: rgb(1, 46, 27,.1);
+}
+.excelentCualityPhone button,
+.pricesAccesibilityPhone button,
+.atentionCualityPhone button{
+    position: relative;
+    height: 13vw;
+    width: 13%;
+    border-radius: 60%;
+    top: -3vh;
+    left: 43vw;
+    border: 5px solid rgb(1, 46, 27) ;
+    background-color: rgb(1, 46, 27);
+    box-shadow: 0px 0px 0px 2px white inset;
+}
+.pricesAccesibilityPhone button{
+    background-color:rgb(2, 2, 51);
+    border: 5px solid rgb(2, 2, 51) ;
+}
+.atentionCualityPhone button{
+    background-color: rgb(56, 3, 3);
+    border: 5px solid rgb(56, 3, 3) ;
+}
+.excelentCualityPhone h2,
+.pricesAccesibilityPhone h2,
+.atentionCualityPhone h2{
+    position: relative;
+    top: -5%;
+    font-size: 11vw;
+    text-align: center;
+    color: rgb(1, 46, 27);
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.pricesAccesibilityPhone h2{
+    color: rgb(2, 2, 51);
+}
+.atentionCualityPhone h2{
+    color: rgb(56, 3, 3);
+}
+
+.excelentCualityPhone p,
+.pricesAccesibilityPhone p,
+.atentionCualityPhone p{
+    position: relative;
+    top: -5%;
+    font-size: 6vw;
+    text-align: center;
+    color: rgb(1, 46, 27);
+}
+.pricesAccesibilityPhone p{
+    color: rgb(2, 2, 51);
+}
+.atentionCualityPhone p{
+    color: rgb(56, 3, 3);
+}
+.cualityPhone{
+    font-size: 48vw;
+    margin-left: 26%;
+    color: rgb(1, 46, 27) ;
+}
+.dollarPhone{
+    position: relative;
+    font-size: 48vw;
+    margin-left: 25%;
+    top: -2%;
+    color: rgb(2, 2, 51);
+}
+.userPhone{
+    font-size: 43vw;
+    margin-left: 3%;
+    color: rgb(56, 3, 3) ;
+}
+.userPhone1{
+    position: relative;
+    top: 3%;
+    font-size: 48vw;
+}
+.animationVisibleAdd{
+    animation-name: animateVisibilityAdd;
+    animation-duration: 2s;
+    visibility: visible;
+}
+.cualityPhoneComplete,
+.pricesPhoneComplete,
+.atentionPhoneComplete{
+    position: relative;
+    height: 145vw;
+    width: 100%;
+    background-image: linear-gradient(white,rgba(0, 233, 47,.4));
+    margin-bottom: 60vh;
+    visibility: hidden;
+}
+.pricesPhoneComplete{
+    background-image: linear-gradient(white,rgba(73, 164, 206, 0.4));
+}
+.atentionPhoneComplete{
+    margin-bottom: 30vh;
+    background-image: linear-gradient(white,rgba(216, 45, 45,.5));
+}
+.cualityPhoneComplete{
+    margin-top: 20vh;
+}
+.wavePhone1,
+.wavePhone2,
+.wavePhone3,
+.wavePhone4{
+    position: absolute;
+    bottom: -39.99999vw;
+    left: 0;
+    right: 0;
+    height: 40vw;
+    z-index: -1;
+    
+}
+.wavePhone1 svg,
+.wavePhone2 svg,
+.wavePhone3 svg,
+.wavePhone4 svg {
+  height: 120%;
+  width: 100%;
+  transform: rotate(180deg);
+}
+
+.wavePhone1 path,
+.wavePhone2 path,
+.wavePhone3 path,
+.wavePhone4 path {
+  stroke: none;
+  fill: #00e92f;
+  opacity: .4;
+}  
+
+.wavePhone2 path {
+    stroke: none;
+    fill:rgb(73, 164, 206);
+    opacity: .4;
+}  
+.wavePhone2 svg {
+    height: 120%;
+    width: 100%;
+    transform: rotate(180deg) scaleX(-1);
+}
+
+.wavePhone3 path {
+    stroke: none;
+    fill:rgb(216, 45, 45);
+    opacity: .5;
+}  
+.cualityImagePhone,
+.pricesImagePhone{
+    position: relative;
+    border: none;
+    top: -24vh;
+    height: 75vw;
+    width: 70%;
+    left: 14%;
+    border-radius: 20px;
+    z-index: 1;
+    background-color: #8cf1a2;
+    opacity: .3;
+    box-shadow: 0px 20px 25px 0px rgb(1, 26, 2);
+    
+}
+
+.cualityImagePhone img,
+.pricesImagePhone img{
+    height: 85%;
+    width: 90%;
+    margin-left: 3%;
+    margin-top: 3.5%;
+    border-radius: 20px;
+    border: 5px solid rgb(3, 53, 16);
+}
+.pricesImagePhone img{
+    border: 5px solid rgb(6, 2, 56);
+}
+.cualityImagePhone button,
+.pricesImagePhone button{
+    position: relative;
+    bottom: 10%;
+    height: 20vw;
+    width: 20vw;
+    border-radius: 60%;
+   left: 37%;
+   border: 5px solid rgb(3, 53, 16);
+   background-color: rgb(3, 53, 16);
+   box-shadow: 0px 0px 0px 2px white inset;
+}
+.pricesImagePhone button{
+    border: 5px solid rgb(6, 2, 56);
+   background-color:   rgb(6, 2, 56);
+   box-shadow: 0px 0px 0px 2px white inset;
+}
+.cualityInformationPhone,
+.pricesInformationPhone{
+    position: relative;
+    border: none;
+    top: -100vw;
+    height: 75vw;
+    width: 70%;
+    left: 15%;
+    border-radius: 20px;
+    z-index: 2;
+    background-color: #9bdfab;
+    box-shadow: 0px 20px 25px -2px rgb(1, 26, 2);
+
+}
+.pricesImagePhone{
+    box-shadow: 0px 20px 25px 0px rgb(1, 1, 26);
+    background-color: rgb(91, 216, 241);
+}
+.cualityInformationPhone img,
+.pricesInformationPhone img{
+    height: 85%;
+    width: 90%;
+    margin-left: 3%;
+    margin-top: 3.5%;
+    border-radius: 20px;
+    border: 5px solid rgb(3, 53, 16);
+}
+.pricesInformationPhone img{
+    border: 5px solid rgb(6, 2, 56);
+}
+.cualityInformationPhone button,
+.pricesInformationPhone button{
+    position: relative;
+    bottom: 10%;
+    height: 20vw;
+    width: 20vw;
+    border-radius: 60%;
+   left: 37%;
+   border: 5px solid rgb(3, 53, 16);
+   background-color: rgb(3, 53, 16);
+   box-shadow: 0px 0px 0px 2px white inset;
+}
+.pricesInformationPhone button{
+    border: 5px solid rgb(6, 2, 56);
+    background-color:   rgb(6, 2, 56);
+    box-shadow: 0px 0px 0px 2px white inset;
+ }
+ .pricesInformationPhone{
+    box-shadow: 0px 20px 25px 0px rgb(1, 1, 26);
+    background-color: rgb(59, 151, 173);
+}
+
+.cualityInformationPhone2,
+.pricesInformationPhone2{
+    animation: moveCualityInformation 1.5s ease-in-out forwards;
+    position: relative;
+    border: none;
+    top: -24vh;
+    height: 75vw;
+    width: 70%;
+    left: 14%;
+    border-radius: 20px;
+    z-index: 1;
+    background-color: #8cf1a2;
+    opacity: .3;
+    box-shadow: 0px 20px 25px 0px rgb(1, 26, 2);
+
+}
+.pricesInformationPhone2{
+    animation: movePricesInformation 1.5s ease-in-out forwards;
+    box-shadow: 0px 20px 25px 0px rgb(1, 1, 26);
+    background-color: rgb(59, 151, 173);
+}
+.cualityInformationPhone2 button,
+.pricesInformationPhone2 button{
+    position: relative;
+    bottom: 10%;
+    height: 20vw;
+    width: 20vw;
+    border-radius: 60%;
+   left: 37%;
+   border: 5px solid rgb(3, 53, 16);
+   background-color: rgb(3, 53, 16);
+   box-shadow: 0px 0px 0px 2px white inset;
+}
+.pricesInformationPhone2 button{
+    border: 5px solid rgb(6, 2, 56);
+    background-color:   rgb(6, 2, 56);
+    box-shadow: 0px 0px 0px 2px white inset;
+ }
+.cualityInformationPhone2 img,
+.pricesInformationPhone2 img{
+    height: 85%;
+    width: 90%;
+    margin-left: 3%;
+    margin-top: 3.5%;
+    border-radius: 20px;
+    border: 5px solid rgb(3, 53, 16);
+}
+.pricesInformationPhone2 img{
+    border: 5px solid rgb(6, 2, 56);
+}
+
+.pricesImagePhone2,
+.cualityImagePhone2{
+    animation: moveCualityImage 1.5s ease-in-out forwards;
+    position: relative;
+    border: none;
+    top: 27%;
+    height: 110%;
+    width: 33%;
+    left: 10%;
+    border-radius: 20px;
+    z-index: 2;
+    background-color: #8cf1a2;
+    opacity: 1;
+    box-shadow: 0px 20px 25px 0px rgb(1, 26, 2);
+}
+.pricesImagePhone2{
+    animation: movePricesImage 1.5s ease-in-out forwards;
+    box-shadow: 0px 20px 25px 0px rgb(1, 1, 26);
+    background-color: rgb(59, 151, 173);
+}
+.cualityImagePhone2 img,
+.pricesImagePhone2 img{
+    height: 85%;
+    width: 90%;
+    margin-left: 3%;
+    margin-top: 3.5%;
+    border-radius: 20px;
+    border: 5px solid rgb(3, 53, 16);
+}
+.pricesImagePhone2 img{
+    border: 5px solid rgb(6, 2, 56);
+}
+.cualityImagePhone2 button,
+.pricesImagePhone2 button{
+    position: relative;
+    bottom: 10%;
+    height: 20vw;
+    width: 20vw;
+    border-radius: 60%;
+   left: 37%;
+   border: 5px solid rgb(3, 53, 16);
+   background-color: rgb(3, 53, 16);
+   box-shadow: 0px 0px 0px 2px white inset;
+}
+.pricesImagePhone2 button{
+    border: 5px solid rgb(6, 2, 56);
+    background-color:   rgb(6, 2, 56);
+    box-shadow: 0px 0px 0px 2px white inset;
+ }
+ 
+.cualityInformationPhone{
+    animation: moveCualityReverseInformation 1.5s ease-in-out;
+
+}
+.cualityImagePhone{
+    animation: moveCualityReverseImage 1.5s ease-in-out;
+    
+}
+
+.pricesInformationPhone{
+    animation: movePricesReverseInformation 1.5s ease-in-out;
+}
+.pricesImagePhone{
+    animation: movePricesReverseImage 1.5s ease-in-out;
+    
+}
+.pricesPhoneComplete h2,
+.cualityPhoneComplete h2,
+.atentionPhoneComplete h2{   
+    position: relative;
+    display: block;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 6vh;
+    color:rgb(2, 2, 51);
+    font-weight: 700;
+    text-align: center;
+    top: -93vw;
+}
+.cualityPhoneComplete h2{
+    color: rgb(3, 53, 16);
+}
+.atentionPhoneComplete h2{
+    top: -39vw;
+    color: rgb(56, 3, 3);
+}
+.pricesPhoneComplete p,
+.cualityPhoneComplete p,
+.atentionPhoneComplete p{
+    position: relative;
+    display: inline-block;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 4.5vw;
+    color: black;
+    font-weight: 300;
+    top: -92vw;
+    text-align: center;
+}
+.atentionPhoneComplete p{
+    top: -39vw;
+}
+
+
+.carruselAtentionPhoneComplete{
+    position: relative;
+    border: none;
+    top: -45vw;
+    height: 90vw;
+    width: 70vw;
+    left: 14%;
+    border-radius: 20px;
+    z-index: 2;
+    background-color: #5c1b08;
+    opacity: 1;
+    box-shadow: 0px 20px 25px 0px rgb(1, 26, 2);
+}
+.carruselAtentionPhoneComplete .carruselImagesPhone{
+    height: 95%;
+    width: 90%;
+    margin-left: 3%;
+    border-radius: 20px;
+    background-size: cover;
+    border: 5px solid rgb(88, 22, 2);
+    background-image: url('../../../../assets/carrusel1.jpg');
+    animation-name: animationCarruselAtention;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+   
+}
+.finalPhone{
+    position: relative;
+    height: 95vw;
+    width: 90vw;
+    visibility: visible;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #44ff70;
+    border-radius: 60%;
+    box-shadow: 0px 0px 100px 3px #44ff70;
+   left: 5%;
+   margin-bottom: 25vh;
+
+}
+.finalPhone h2{
+    position: relative;
+    top: 16%;
+    width: 100%;
+    height: 20vw;
+    background-color: white;
+    border-radius: 40px;
+    font-size: 9vw;
+    text-align: center;
+    color: rgb(1, 51, 8);
+    font-weight: 700;
+}
+.finalPhone button{
+    display: block;
+    height: 20vw;
+    width: 53%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2vh;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 8vw;
+    font-weight: 700;
+    color: rgb(1, 51, 8);
+    background-color: white;
+    border: none;
+    box-shadow: 0px 0px 10px 1px rgb(206, 205, 205);
+    
+}
+
+.finalPhone .iconPhone{
+    position: relative;
+    font-size: 30vw;
+    color: rgb(1, 51, 8);
+    top: 13%;
+    left: 34%;
+}
+.activePhoneComplete{
+    visibility: visible;
+    animation: animateVisiblePhoneComplete;
+    animation-duration: 3s;
+}
